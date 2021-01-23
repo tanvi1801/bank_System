@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
-            <a class="navbar-brand mr-auto" href="#"><img src="images/logo.jpg" width="50" height="41"></a>
+            <a class="navbar-brand mr-auto" href="#"><img src="images/logo.png" width="50" height="41"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -56,7 +56,7 @@
                     <td><?php echo $row['name'] ?></td>
                     <td><?php echo $row['email'] ?></td>
                     <td><?php echo $row['balance'] ?></td>
-                    <td><button><?php  echo('<a href="profile.php?user_id='.$row['user_id'].'">'."View".'</a> ');
+                    <td><button><?php  echo('<a href="details.php?user_id='.$row['user_id'].'">'."View".'</a> ');
                     ?></button></td>
                     <br>
                     </tr>

@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
-            <a class="navbar-brand mr-auto" href="#"><img src="images/logo.jpg" width="50" height="41"></a>
+            <a class="navbar-brand mr-auto" href="#"><img src="images/logo.png" width="50" height="41"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,8 +36,7 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
+    
 
     
     <div class="container">
@@ -46,14 +45,16 @@
                 <a href="viewusers.php" id="viewusers" role="button" class="btn btn-secondary">View Users</a>    
             </div>
         </div>
+        <br>
+        <div class="row row content">
+            <div class="col-12 col-sm align-self-center">
+                <a href="history.php" id="history" role="button" class="btn btn-secondary">History Of transaction</a>    
+            </div>
+        </div>
+    </div>  
 
-    
-    
-    
-    </div>    
 
-
-    <footer class="footer">
+    <footer class="footer fixed-bottom">
         <div class="container">
             <div class="row">             
                 <div class="col-4 offset-1 col-sm-2">
